@@ -1,6 +1,6 @@
 * First, set up the account by changing your 15L password at [Link](https://sdacs.ucsd.edu/~icc/index.php)
 # Installing VScode
-* Down load VScode from the websit at [Link](https://sdacs.ucsd.edu/~icc/index.php). (I already have VS on my computer)
+* Down load VScode from the websit at [Link](https://sdacs.ucsd.edu/~icc/index.php). (I already have VScode on my computer)
 ![Image](download.png)
 * Follow the instructions
 * Open VSCode
