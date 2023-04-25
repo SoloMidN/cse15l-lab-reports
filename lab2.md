@@ -37,4 +37,17 @@ class StringServer {
 }
 ```
 ![Image](1.png)
+When calling the main method, the handleRequest method is called to add string, server.start() is called to start the service.
+`http://localhost:7600/add-message?s=Hello`
+`url` is http://localhost:7600/add-message?s=Hello
+`parameters[0]` is `s`
+`parameter[1]` is `Hello`
+`str` is `Hello`
+`port` is `7600`
 ![Image](2.png)
+Same thing happended when when calling `http://localhost:7600/add-message?s=lab2`
+`url` is http://localhost:7600/add-message?s=lab2
+`parameters[0]` is `s`
+`parameter[1]` is `lab2`
+`str` is `Hello` and `lab2`
+`port` is `7600`
