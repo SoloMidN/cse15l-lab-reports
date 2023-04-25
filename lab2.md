@@ -1,4 +1,4 @@
-##Part1
+# Part1
 
 Code of `String Server`
 ```
@@ -49,11 +49,64 @@ When calling the main method, the handleRequest method is called to add string, 
 Everything just got updated beacuse it is the first time calling the method.
 ![Image](2.png)
 Same thing happended when when calling `http://localhost:7600/add-message?s=lab2`
-
-##Part2
 `url` is http://localhost:7600/add-message?s=lab2
 `parameters[0]` is `s`
 `parameter[1]` is `lab2`
 `str` is `Hello` and `lab2`
 `port` is `7600`
 For the second time, only the ArrayList `str` changed by adding another string to it.
+# Part 2
+Bug code
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+  ```
+  Error code and JUnit
+```
+int[] input2 = {1,2,3,4,5};
+    ArrayExamples.reversed(input2);
+```
+
+  ```
+SolomonsMacbook:lab3 solomonhuang$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests
+JUnit version 4.13.2
+..E
+Time: 0.005
+There was 1 failure:
+1) testReversed(ArrayTests)
+arrays first differed at element [0]; expected:<5> but was:<0>
+        at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+        at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+        at org.junit.Assert.internalArrayEquals(Assert.java:534)
+        at org.junit.Assert.assertArrayEquals(Assert.java:418)
+        at org.junit.Assert.assertArrayEquals(Assert.java:429)
+        at ArrayTests.testReversed(ArrayTests.java:23)
+        ... 30 trimmed
+Caused by: java.lang.AssertionError: expected:<5> but was:<0>
+        at org.junit.Assert.fail(Assert.java:89)
+        at org.junit.Assert.failNotEquals(Assert.java:835)
+        at org.junit.Assert.assertEquals(Assert.java:120)
+        at org.junit.Assert.assertEquals(Assert.java:146)
+        at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+        at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+        ... 36 more
+
+FAILURES!!!
+Tests run: 2,  Failures: 1
+```
+
+Correct code
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+  ```
