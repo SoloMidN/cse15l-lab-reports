@@ -44,6 +44,7 @@ When calling the main method, the handleRequest method is called to add string, 
 `parameter[1]` is `Hello`
 `str` is `Hello`
 `port` is `7600`
+Everything just got updated beacuse it is the first time calling the method.
 ![Image](2.png)
 Same thing happended when when calling `http://localhost:7600/add-message?s=lab2`
 `url` is http://localhost:7600/add-message?s=lab2
@@ -51,3 +52,4 @@ Same thing happended when when calling `http://localhost:7600/add-message?s=lab2
 `parameter[1]` is `lab2`
 `str` is `Hello` and `lab2`
 `port` is `7600`
+For the second time, only the ArrayList `str` changed by adding another string to it.
