@@ -1,3 +1,5 @@
+##Part1
+
 Code of `String Server`
 ```
 import java.io.IOException;
@@ -47,6 +49,8 @@ When calling the main method, the handleRequest method is called to add string, 
 Everything just got updated beacuse it is the first time calling the method.
 ![Image](2.png)
 Same thing happended when when calling `http://localhost:7600/add-message?s=lab2`
+
+##Part2
 `url` is http://localhost:7600/add-message?s=lab2
 `parameters[0]` is `s`
 `parameter[1]` is `lab2`
