@@ -16,9 +16,6 @@ class Handler3 implements URLHandler {
 
                 str.add(parameters[1]);
                 return String.join("\n",str) + "\n";
-                
-            
-
             }
             
             
@@ -29,8 +26,6 @@ class Handler3 implements URLHandler {
 
 
 }
-
-
 class StringServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
@@ -42,5 +37,4 @@ class StringServer {
 
         Server.start(port, new Handler3());
     }
-}
-`
+}`
