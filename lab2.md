@@ -1,5 +1,6 @@
 Code of `String Server`
-`
+```
+#code block
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
@@ -35,4 +36,5 @@ class Handler3 implements URLHandler {
 
         Server.start(port, new Handler3());
     }
-}`
+}
+```
