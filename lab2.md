@@ -84,5 +84,6 @@ static int[] reversed(int[] arr) {
     return newArray;
   }
   ```
+  The new code fix the bug because the code reverse the old array and return it into a new array instead copying the wrong elements into the old array.
 # Part 3
 I don't have how to set up a local server before. After week 2, I can use the code given as well as my methods to perform simple incrementation on website.
