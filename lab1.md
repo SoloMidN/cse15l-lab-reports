@@ -14,4 +14,5 @@
 # Trying Some Commands
 * Now you can run some command lines in the terminal
 ![Image](command.png)
+The command `ls -lat` will print out all the files in current directory will detialed information, sorted by the modification time.
 * Here are some commands to try: cd, ls, pwd, mkdir, and cp
