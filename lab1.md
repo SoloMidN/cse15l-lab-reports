@@ -16,3 +16,5 @@
 ![Image](command.png)
 The command `ls -lat` will print out all the files in current directory will detialed information, sorted by the modification time.
 * Here are some commands to try: cd, ls, pwd, mkdir, and cp
+* ![Image](6836C0CB-2770-4A67-857D-94E5A6FA12B2.png)
+* For example, `cd` will move to the next directory . `ls -a` which list all the files including hidden files . `cp /home/linux/ieng6/cs15lsp23/public/hello.txt /` will make a copy of file hello.txt in the given directory.
