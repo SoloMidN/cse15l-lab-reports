@@ -4,8 +4,6 @@ import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
 
-
-
 class Handler3 implements URLHandler {
     ArrayList<String> str = new ArrayList<>(); 
 
@@ -17,18 +15,11 @@ class Handler3 implements URLHandler {
 
                 str.add(parameters[1]);
                 return String.join("\n",str) + "\n";
-                
-            
-
-            }
-            
-            
-            
+ 
+            }         
         }
         return "";
     }
-
-
 }
 
 
