@@ -72,33 +72,7 @@ int[] input2 = {1,2,3,4,5};
     ArrayExamples.reversed(input2);
 ```
 
-  ```
-SolomonsMacbook:lab3 solomonhuang$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests
-JUnit version 4.13.2
-..E
-Time: 0.005
-There was 1 failure:
-1) testReversed(ArrayTests)
-arrays first differed at element [0]; expected:<5> but was:<0>
-        at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
-        at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
-        at org.junit.Assert.internalArrayEquals(Assert.java:534)
-        at org.junit.Assert.assertArrayEquals(Assert.java:418)
-        at org.junit.Assert.assertArrayEquals(Assert.java:429)
-        at ArrayTests.testReversed(ArrayTests.java:23)
-        ... 30 trimmed
-Caused by: java.lang.AssertionError: expected:<5> but was:<0>
-        at org.junit.Assert.fail(Assert.java:89)
-        at org.junit.Assert.failNotEquals(Assert.java:835)
-        at org.junit.Assert.assertEquals(Assert.java:120)
-        at org.junit.Assert.assertEquals(Assert.java:146)
-        at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
-        at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
-        ... 36 more
-
-FAILURES!!!
-Tests run: 2,  Failures: 1
-```
+![Image](3.png)
 
 Correct code
 ```
@@ -110,3 +84,5 @@ static int[] reversed(int[] arr) {
     return newArray;
   }
   ```
+# Part 3
+I don't have how to set up a local server before. After week 2, I can use the code given as well as my methods to perform simple incrementation on website.
