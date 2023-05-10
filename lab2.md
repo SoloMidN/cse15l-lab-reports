@@ -102,12 +102,11 @@ Tests run: 1,  Failures: 1
 ```
 int[] input1 = { };
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
-    ```
+```
    
 ```
 (base) Solomons-Macbook:lab3 solomonhuang$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests
 JUnit version 4.13.2
-.
 Time: 0.004
 
 OK (1 test)
@@ -124,6 +123,6 @@ static int[] reversed(int[] arr) {
     return newArray;
   }
   ```
-  The new code fix the bug because the code reverse the old array and return it into a new array instead copying the wrong elements into the old array.
+The new code fix the bug because the code reverse the old array and return it into a new array instead copying the wrong elements into the old array.
 # Part 3
 I don't have how to set up a local server before. After week 2, I can use the code given as well as my methods to perform simple incrementation on website.
