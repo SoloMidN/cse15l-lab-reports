@@ -66,12 +66,14 @@ static int[] reversed(int[] arr) {
     return arr;
   }
   ```
-  Error code and JUnit
+  
+## A failure-inducing input for the buggy program
+Error code and JUnit
 ```
 int[] input2 = {1,2,3,4,5};
     ArrayExamples.reversed(input2);
 ```
-## A failure-inducing input for the buggy program
+
 ```
 JUnit version 4.13.2
 .E
