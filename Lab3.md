@@ -35,3 +35,23 @@ I used the command `find./technical -name "*chapter*.txt"`  to searche the./tech
 ./technical/911report
 ```
 I used the command `find ./technical -name "*911*"` to find the directory which contians 911 in techincal 
+
+## `-type`: You can use this option to define the type of file you wish to look for. It can be used to locate files of a given type, such as directories (d), regular files (f), symbolic links (l), and others.
+
+* example 1
+
+```
+(base) Solomons-Macbook:docsearch solomonhuang$  find ./technical -type d
+./technical
+./technical/government
+./technical/government/About_LSC
+./technical/government/Env_Prot_Agen
+./technical/government/Alcohol_Problems
+./technical/government/Gen_Account_Office
+./technical/government/Post_Rate_Comm
+./technical/government/Media
+./technical/plos
+./technical/biomed
+./technical/911report
+```
+`-type d` will give me all directories in the ./technical directory.
