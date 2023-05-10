@@ -2,9 +2,9 @@
 
 In this lab report, I will explore four options of using command `find`
 
-`-name`: You can use patterns or exact matches to search for files or directories based on their names using this option.
-
-## example 1
+## `-name`: You can use patterns or exact matches to search for files or directories based on their names using this option.
+ 
+* example 1
 (base) Solomons-Macbook:docsearch solomonhuang$ find ./technical -name "*chapter*.txt"
 ./technical/911report/chapter-13.4.txt
 ./technical/911report/chapter-13.5.txt
