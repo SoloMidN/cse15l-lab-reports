@@ -98,7 +98,6 @@ Caused by: java.lang.AssertionError: expected:<5> but was:<0>
 FAILURES!!!
 Tests run: 1,  Failures: 1
 ```
-
 ## An input that doesn’t induce a failure
 ```
 int[] input1 = { };
