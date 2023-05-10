@@ -27,3 +27,11 @@ In this lab report, I will explore four options of using command `find`
 ```
 
 I used the command `find./technical -name "*chapter*.txt"`  to searche the./technical directory and its subdirectories for files with the word "chapter" in their names and ending in the.txt extension.
+
+* example 2
+
+```
+(base) Solomons-Macbook:docsearch solomonhuang$ find ./technical -name "*911*"
+./technical/911report
+```
+I used the command `find ./technical -name "*911*"` to find the directory which contians 911 in techincal 
