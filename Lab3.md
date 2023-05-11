@@ -95,6 +95,7 @@ I used the command `find ./technical -name "*911*"` to find the directory which 
 ./technical//plos/pmed.0020226.txt
 ./technical//911report
 ```
+
 `-size -1k` gives me all the files within the ./technical directory which smaller than 1 kilobyte (KB)
 
 * example 6
