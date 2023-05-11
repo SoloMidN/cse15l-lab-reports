@@ -101,6 +101,7 @@ I used the command `find ./technical -name "*911*"` to find the directory which 
 * example 6
 
 ```
+
 (base) Solomons-Macbook:docsearch solomonhuang$ find ./technical/ -size +100k
 ./technical//government/About_LSC/commission_report.txt
 ./technical//government/About_LSC/State_Planning_Report.txt
