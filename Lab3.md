@@ -136,7 +136,7 @@ I used the command `find ./technical -name "*911*"` to find the directory which 
 
 ## `-iname`: find command allows you to search for files and directories based on their names in a case-insensitive manner.
 
-* example 1
+* example 7
 
 ```
 (base) Solomons-Macbook:docsearch solomonhuang$ find ./technical -type f -iname "*group*.txt"
@@ -145,7 +145,7 @@ I used the command `find ./technical -name "*911*"` to find the directory which 
 
 `-iname` will ignore case and return then file that matched. I can also use with `-type`
 
-* example 2
+* example 8
 
 ```
 (base) Solomons-Macbook:docsearch solomonhuang$  find ./technical -type d -iname "PLOS"
