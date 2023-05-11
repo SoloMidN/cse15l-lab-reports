@@ -154,5 +154,5 @@ I used the command `find ./technical -name "*911*"` to find the directory which 
 
 `-iname` will ignore case and return then file that matched. I can also use with `-type -d`
 
-The ideas are came from ChatGPT and [35 Practical Examples of Linux Find Command]https://www.tecmint.com/35-practical-examples-of-linux-find-command/
+The ideas are came from ChatGPT and [35 Practical Examples of Linux Find Command](https://www.tecmint.com/35-practical-examples-of-linux-find-command/)
 
