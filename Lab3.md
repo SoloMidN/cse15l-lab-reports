@@ -55,3 +55,28 @@ I used the command `find ./technical -name "*911*"` to find the directory which 
 ./technical/911report
 ```
 `-type d` will give me all directories in the ./technical directory.
+
+* example 2
+
+```(base) Solomons-Macbook:docsearch solomonhuang$ find ./technical/911report/ -type f
+./technical/911report//chapter-13.4.txt
+./technical/911report//chapter-13.5.txt
+./technical/911report//chapter-13.1.txt
+./technical/911report//chapter-13.2.txt
+./technical/911report//chapter-13.3.txt
+./technical/911report//chapter-3.txt
+./technical/911report//chapter-2.txt
+./technical/911report//chapter-1.txt
+./technical/911report//chapter-5.txt
+./technical/911report//chapter-6.txt
+./technical/911report//chapter-7.txt
+./technical/911report//chapter-9.txt
+./technical/911report//chapter-8.txt
+./technical/911report//preface.txt
+./technical/911report//chapter-12.txt
+./technical/911report//chapter-10.txt
+./technical/911report//chapter-11.txt
+````
+`type -f` will give me all files in given directory.
+
+## 
