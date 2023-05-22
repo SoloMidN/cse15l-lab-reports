@@ -183,7 +183,8 @@ Copy code
 ./technical
 ./technical/documents
 ./technical/code
-This command searches for directories (-type d) within the ./technical directory and its subdirectories.
+This command searches for directories (-type d) within the 
+./technical directory and its subdirectories.
 
 -name: This option allows you to search for files or directories based 
 on their name using patterns or exact matches.
