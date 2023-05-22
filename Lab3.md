@@ -160,7 +160,7 @@ I used the command `find ./technical -name "*911*"` to find the directory which 
 
 The ideas are came from ChatGPT and [35 Practical Examples of Linux Find Command](https://www.tecmint.com/35-practical-examples-of-linux-find-command/)
 
-I used the prompt "Give me four options to use ``find`` in command line.
+I used the prompt "Give me four options to use ``find`` in command line given the direactory ``./technical``.
 
 Chat gpt gave me:
 
@@ -182,20 +182,6 @@ Copy code
 ./technical/code
 This command searches for directories (-type d) within the ./technical directory and its subdirectories.
 
-Example 2: Find all regular files in the ./technical directory.
-
-shell
-Copy code
-$ find ./technical -type f
-Output:
-
-bash
-Copy code
-./technical/documents/report.txt
-./technical/code/script.py
-./technical/code/main.c
-This command searches for regular files (-type f) within the ./technical directory and its subdirectories.
-
 -name: This option allows you to search for files or directories based on their name using patterns or exact matches.
 Example 1: Find all files ending with .txt in the ./technical directory.
 
@@ -208,18 +194,6 @@ bash
 Copy code
 ./technical/documents/report.txt
 This command searches for files with names ending in .txt within the ./technical directory and its subdirectories.
-
-Example 2: Find a directory named code within the ./technical directory.
-
-shell
-Copy code
-$ find ./technical -type d -name "code"
-Output:
-
-bash
-Copy code
-./technical/code
-This command searches for a directory named code within the ./technical directory and its subdirectories.
 
 -size: This option allows you to search for files based on their size, either in blocks or bytes.
 Example 1: Find all files larger than 1MB in the ./technical directory.
@@ -234,17 +208,6 @@ Copy code
 ./technical/documents/report.txt
 This command searches for files larger than 1 megabyte (+1M) within the ./technical directory and its subdirectories.
 
-Example 2: Find all empty files in the ./technical directory.
-
-arduino
-Copy code
-$ find ./technical -size 0
-Output:
-
-bash
-Copy code
-./technical/documents/empty.txt
-This command searches for files with a size of 0 bytes (-size 0) within the ./technical directory and its subdirectories.
 
 -exec: This option allows you to execute a command on each file found by find.
 Example 1: Find all files in the ./technical directory and remove them.
@@ -254,15 +217,5 @@ Copy code
 $ find ./technical -type f -exec rm {} +
 Output: (No output if successful)
 This command searches for regular files (-type f) within the ./technical directory and its subdirectories and executes the rm command to remove them.
-
-Example 2: Find all directories in the ./technical directory and change their permissions to 755.
-
-shell
-Copy code
-$ find ./technical -type d -exec chmod 755 {} +
-Output: (No output if successful)
-This command searches for directories (-type d) within the ./technical directory and its subdirectories and executes the chmod command to change their permissions to 755.
-
-The find command, along with these options, provides a powerful way to search for files and directories based on various criteria, enabling you to perform complex operations and efficiently manage your file system
 ``
 
