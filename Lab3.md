@@ -169,7 +169,8 @@ Chat gpt gave me:
 ```
 Sure! Let's explore the find command and four interesting command-line options you can use with it.
 
--type: This option allows you to specify the type of file you want to search for. You can use it to find files of a specific type, such as directories (d), regular files (f), symbolic links (l), and more.
+-type: This option allows you to specify the type of file you want to search for. You can use it 
+to find files of a specific type, such as directories (d), regular files (f), symbolic links (l), and more.
 Example 1: Find all directories in the ./technical directory.
 
 shell
@@ -184,7 +185,8 @@ Copy code
 ./technical/code
 This command searches for directories (-type d) within the ./technical directory and its subdirectories.
 
--name: This option allows you to search for files or directories based on their name using patterns or exact matches.
+-name: This option allows you to search for files or directories based 
+on their name using patterns or exact matches.
 Example 1: Find all files ending with .txt in the ./technical directory.
 
 shell
@@ -195,9 +197,11 @@ Output:
 bash
 Copy code
 ./technical/documents/report.txt
-This command searches for files with names ending in .txt within the ./technical directory and its subdirectories.
+This command searches for files with names ending in .txt within the 
+./technical directory and its subdirectories.
 
--size: This option allows you to search for files based on their size, either in blocks or bytes.
+-size: This option allows you to search for files based on their size, 
+either in blocks or bytes.
 Example 1: Find all files larger than 1MB in the ./technical directory.
 
 arduino
@@ -208,7 +212,8 @@ Output:
 bash
 Copy code
 ./technical/documents/report.txt
-This command searches for files larger than 1 megabyte (+1M) within the ./technical directory and its subdirectories.
+This command searches for files larger than 1 megabyte (+1M) within the
+./technical directory and its subdirectories.
 
 
 -exec: This option allows you to execute a command on each file found by find.
@@ -218,6 +223,7 @@ shell
 Copy code
 $ find ./technical -type f -exec rm {} +
 Output: (No output if successful)
-This command searches for regular files (-type f) within the ./technical directory and its subdirectories and executes the rm command to remove them.
+This command searches for regular files (-type f) within the ./technical directory 
+and its subdirectories and executes the rm command to remove them.
 ```
 
