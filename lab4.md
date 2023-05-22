@@ -7,6 +7,6 @@ key: ``ieng6 account`` ``<enter>`` ``password`` ``<enter>``
 
 
 ## Step 5 -- 
-![image](step 5.png)
+![image](step5.png)
 
 key pressed: ``git clone https://github.com/SoloMidN/lab7`` ``<enter>``
