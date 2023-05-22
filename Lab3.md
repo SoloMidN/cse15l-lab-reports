@@ -227,4 +227,3 @@ Output: (No output if successful)
 This command searches for regular files (-type f) within the ./technical directory 
 and its subdirectories and executes the rm command to remove them.
 ```
-
