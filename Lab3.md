@@ -167,10 +167,13 @@ I used the prompt "Give me four options to use ``find`` in command line given th
 Chat gpt gave me:
 
 ```
-Sure! Let's explore the find command and four interesting command-line options you can use with it.
+Sure! Let's explore the find command and four interesting 
+command-line options you can use with it.
 
--type: This option allows you to specify the type of file you want to search for. You can use it 
-to find files of a specific type, such as directories (d), regular files (f), symbolic links (l), and more.
+-type: This option allows you to specify the type of 
+file you want to search for. You can use it 
+to find files of a specific type, such as directories 
+(d), regular files (f), symbolic links (l), and more.
 Example 1: Find all directories in the ./technical directory.
 
 shell
