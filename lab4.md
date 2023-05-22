@@ -7,7 +7,6 @@ key: ``ieng6 account`` ``<enter>`` ``password`` ``<enter>``
 
 
 
-
 ## Step 5 -- 
 ![image](step5.png)
 
