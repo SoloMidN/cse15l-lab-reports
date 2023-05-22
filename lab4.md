@@ -1,1 +1,1 @@
-![image](step4.jpg)
+![image](step4.png)
