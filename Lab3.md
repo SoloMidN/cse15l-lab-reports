@@ -143,7 +143,8 @@ I used the command `find ./technical -name "*911*"` to find the directory which 
 * example 7
 
 ```
-(base) Solomons-Macbook:docsearch solomonhuang$ find ./technical -type f -iname "*group*.txt"
+(base) Solomons-Macbook:docsearch solomonhuang$ find ./technical -type f 
+-iname "*group*.txt"
 ./technical/government/Media/5_Legal_Groups.txt
 ```
 
@@ -152,7 +153,8 @@ I used the command `find ./technical -name "*911*"` to find the directory which 
 * example 8
 
 ```
-(base) Solomons-Macbook:docsearch solomonhuang$  find ./technical -type d -iname "PLOS"
+(base) Solomons-Macbook:docsearch solomonhuang$  find ./technical 
+-type d -iname "PLOS"
 ./technical/plos
 ```
 
