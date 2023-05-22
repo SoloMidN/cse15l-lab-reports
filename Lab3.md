@@ -164,7 +164,7 @@ I used the prompt "Give me four options to use ``find`` in command line given th
 
 Chat gpt gave me:
 
-``
+```
 Sure! Let's explore the find command and four interesting command-line options you can use with it.
 
 -type: This option allows you to specify the type of file you want to search for. You can use it to find files of a specific type, such as directories (d), regular files (f), symbolic links (l), and more.
@@ -217,5 +217,5 @@ Copy code
 $ find ./technical -type f -exec rm {} +
 Output: (No output if successful)
 This command searches for regular files (-type f) within the ./technical directory and its subdirectories and executes the rm command to remove them.
-``
+```
 
