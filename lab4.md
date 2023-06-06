@@ -8,14 +8,14 @@ key: ``ieng6 account`` ``<enter>`` ``password`` ``<enter>``
 
 
 ## Step 5 -- 
-![image](step5.png)
+![image](one.png)
 
-key pressed: ``git clone https://github.com/SoloMidN/lab7`` ``<enter>``
+key pressed: ``git@github.com:SoloMidN/lab7.git`` ``<enter>``
 
-cloned the respiratory in local  
+cloned the respiratory in ieng6 by using the ssh keys just generated
 
 ## Step 6--
-![image](step6new.png)
+![image](two.png)
 
 key pressed: ``javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`` 
 ``java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore  ListExamplesTests``
@@ -35,7 +35,7 @@ The above command entered the vim mode of ListExample
 ``i`` entered the insert mode
 ``2`` add 2 after index, fixing the bug
 ``<esc>`` quit the insert mode
-``:qw`` save and quit the vim mode
+``:wq`` save and quit the vim mode
 
 ## Step 8--
 ![image](step8.png)
@@ -48,9 +48,9 @@ Then the java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.run
 The test passed
 
 ## step 9--
-![image](step9.png)
+![image](three.png)
 
-commite and push
+commite and push using ``git add .`` ``git commit -m "message"`` and ``git push``
 
 
 
